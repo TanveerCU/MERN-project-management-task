@@ -20,7 +20,7 @@ function CustomToolbar() {
 const StyledDataGrid = withStyles({
 	root: {
 		"& .MuiDataGrid-renderingZone": {
-			maxHeight: "none !important",
+			overflow: "scroll !important",
 		},
 		"& .MuiDataGrid-cell": {
 			lineHeight: "unset !important",
